@@ -19,6 +19,12 @@
   width: 100%;
 }
 
+.w-80{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
 .w50{
   width: 50%;
 }
@@ -38,6 +44,10 @@
   padding: 0 10%;
 }
 
+.position-relative{
+  position: relative;
+}
+
 body{
   font-family: 'Montserrat', sans-serif;
   
@@ -52,6 +62,7 @@ body{
   position: fixed;
   border-bottom: 2px solid #334B5D;
   min-width: 1000px;
+  z-index: 999;
 }
 
 a{
@@ -71,6 +82,14 @@ a{
   margin-left: 2%;
 }
 
+.margin-bottom{
+  margin-bottom: 1.5%;
+}
+
+.margin-top{
+  margin-top: 1.5%;
+}
+
 
 .container-header{
   width: 100%;
@@ -79,9 +98,6 @@ a{
   
 }
 
-.fa-globe-europe{
-  margin-right: 2%;
-}
 
 .freccia-bordo{
   padding-right: 10px;
@@ -149,11 +165,40 @@ a{
   line-height: 100px;
 }
 
+.sezione1{
+  background-color: #F4F9FD;
+}
+
 .img-grande{
   width: 100%;
-  height: 1000px;
+  height: 1090px;
+  position: relative;
   background-image: url(img/jumbotron.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 0 10%;
+  border-bottom: 4px solid #33475B;
 }
+
+.testo-img{
+  position: absolute;
+  top: 30%;
+  left: 0%;
+}
+
+  
+.spazio-colorato{
+  width: 100%;
+  height: 100px;
+  background-color: #AFEBE4;
+  border-bottom: 4px solid #33475B;
+}
+
+.sezione2{
+  background-color: #F4F9FD;
+}
+
+.box{
+  width: 100%;
+  height: 1000px;
+}
+
