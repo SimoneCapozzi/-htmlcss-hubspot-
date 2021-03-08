@@ -105,6 +105,10 @@ a{
   margin-top: 1.5%;
 }
 
+.margin-top2{
+  margin-top: 30px;
+}
+
 
 .container-header{
   width: 100%;
@@ -214,7 +218,7 @@ a{
 
 .box{
   width: 100%;
-  height: 1000px;
+  
 }
 
 .box-cubo{
@@ -344,6 +348,63 @@ a{
 .c{
   width: 100%;
   height: 800px;
-  background-image: linear-gradient(to top right #00A8B8 #00AFB2 #00B4AD #00BBA8);
+  background: linear-gradient(-90deg, #21C4B1, #21B6C0);
 }
+
+.titolo-c{
+  color: white;
+  padding-top: 50px;
+}
+
+.titolo-c1{
+  color: white;
+  
+}
+
+.testo-c{
+  color: white;
+  padding-top: 50px;
+}
+
+.testo-c1{
+  color: white;
+  margin-bottom: 100px;
+}
+
+.linea1-c{
+  text-align: center;
+}
+
+.linea-bianca{
+  height: 2px;
+  background-color: white;
+}
+
+.linea1-c{
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  
+}
+ .linea1-c:first-of-type{
+  border-bottom: 1px solid white;
+ }
+
+ .border-right{
+   border-right: 1px solid white;
+ }
+  
+
+.box25{
+  width: 25%;
+  height: 100%;
+}
+
+.box25 img{
+  height: 30%;
+  width: 50%;
+}
+  
+  
+  
   
