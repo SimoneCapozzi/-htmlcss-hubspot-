@@ -41,6 +41,10 @@
   margin-right: 2%;
 }
 
+.paddin-top{
+  padding-top: 30px;
+}
+
 .padding-left{
   padding-left: 2%;
 }
@@ -54,7 +58,8 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
-  background-color: #F4F9FD
+  background-color: #F4F9FD;
+  min-width: 1200px;
 }
 
 .nav-fisso{
@@ -99,6 +104,10 @@ a{
 
 .margin-bottom{
   margin-bottom: 1.5%;
+}
+
+.margin-bottom{
+  margin-bottom: 30px;
 }
 
 .margin-top{
@@ -180,7 +189,6 @@ a{
 
 .logo{
   width: 100%;
-  /* background-color: cadetblue; */
   line-height: 100px;
 }
 
@@ -224,7 +232,6 @@ a{
 .box-cubo{
   width: 100%;
   height: 400px;
-  /* background-color: burlywood; */
   text-align: center;
 }
 
@@ -404,7 +411,135 @@ a{
   height: 30%;
   width: 50%;
 }
+
+.titolo-numero{
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  padding-left: 2%;
+  position: relative;
+}
+
+
+.box-loghi{
+  width: 100%;
   
+}
+
+.sponsor{
+ position: absolute;
+ width: 60%;
+ height: 200px;
+ right: 0;
+ top: 50px;
+}
+
+.sponsor .riga-loghi{
+  height: 100px;
+}
+
+.logo-w{
+  width: 25%;
+}
+
+.logo-w img{
+  width: 200px;
+  vertical-align: middle;
+}
+
+.box-titolo-img{
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  padding-top: 200px;
+}
+
+.woman{
+  width: 50%;
+  text-align: right;
+}
+
+.woman img{
+  width: 40%;
   
+}
+
+.testo-accanto-donna{
+  width: 50%;
+}
+
+.footer{
+  width: 100%;
+  background-color: #32495B;
+  margin-top: 50px;
+  padding: 0 10%;
+}
+
+
+.box-footer /* .colonna-footer */{
+  width: 25%;
+  margin: auto;
+}
+
+.colonna-footer h1{
+  color: white;
+}
+
+.colonna-footer li{
+  color: white;
+}
+
+.padding-r{
+  padding-right: 12%;
+}
+
+.bottone-finale{
+  background-color: #DADEE0;
+  border-color: #DADEE0;
+  color: #32495B;
+}
   
+.white{
+  color: white;
+}
+
+.icone a{
+  font-size: 36px;
+  padding-right: 6%;
+}
+
+.lingue{
+  background-color: #32495B;
+  width: 100%;                   
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.lingue >div a{
+  padding-right: 2%;
+  color: #d6dbde;
+  font-size: 20px;
+  line-height: 100px;
+}
+
+.lingue >div{
+  border-bottom: 2px solid white;
+}
+
+.row-finale{
+  width: 100%;
+}
+
+.logo-finale{
+  width: 50%;
+}
+
+.privacy{
+  text-align: right;
+  width: 50%;
   
+}
+
+
+
